@@ -1,0 +1,59 @@
+SPDX-License-Identifier: CNSCL-1.0
+
+Custom Non-Standalone Commercial License (CNSCL-1.0)
+
+Copyright (c) [2026] [Aleksan]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+modify, and integrate the Software into other software applications, subject
+to the following conditions:
+
+1. Permitted Use
+
+You are allowed to:
+- Use the Software for personal or commercial purposes
+- Modify the Software
+- Integrate the Software into applications, games, websites, or other systems
+- Distribute the Software as part of a larger project
+
+2. Commercial Use
+
+Commercial use is permitted only when the Software is included as part of a
+larger and independent product or system.
+
+Examples of permitted commercial use:
+- A mobile or desktop application using the UI component
+- A web platform integrating the system
+- A game or software product that includes the system as a feature
+
+3. Restrictions
+
+You may NOT:
+- Sell the Software as a standalone product
+- Distribute or sell the Software as a template, library, or UI kit on its own
+- Offer the Software as a direct competing product or reusable standalone system
+- Reupload the Software on marketplaces without significant integration into a larger product
+
+4. Redistribution
+
+Redistribution is allowed only if:
+- The Software is part of a larger project
+- Proper credit is given to the original author
+- The Software is not the primary value of the redistributed work
+
+5. Attribution
+
+You must include clear attribution to the original author in any project that
+uses or includes the Software.
+
+6. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
