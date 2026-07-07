@@ -1,11 +1,10 @@
 <p align="center">
   <img src="./img/banner.png" width="700" alt="Folder System Logo" />
-  <!-- <h1 align="center">GymStreak</h1> -->
   <p align="center">Customizable folder component using Web Components and color-blended PNG layers.</p>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-CNSCL 1.0-purple.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/license-CNSCL 1.0-purple.svg" alt="License: CNSCL 1.0">
   <img src="https://img.shields.io/badge/language-javascript-yellow.svg" alt="Javascript">
   <img src="https://img.shields.io/badge/version-1.1.0v-green.svg" alt="Version">
 </p>
@@ -37,4 +36,3 @@
 
 
 <script src="main.js" defer></script>
-```
