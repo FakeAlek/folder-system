@@ -9,11 +9,21 @@ class AppFolder extends HTMLElement {
 
         const shadow = this.attachShadow({ mode: "open" });
 
+        const style = document.createElement("style");
+        style.textContent = `
+            :host {
+                display: inline-block;
+                width: var(--folder-size, 120px);
+                aspect-ratio: 1.1 / 1;
+            }
+        `;
+        shadow.appendChild(style);
+
         const wrapper = document.createElement("div");
 
         Object.assign(wrapper.style, {
-            width: "120px",
-            height: "120px",
+            width: "100%",
+            height: "100%",
             position: "relative",
             display: "block"
         });
@@ -66,8 +76,29 @@ class AppFolder extends HTMLElement {
             maskSize: "contain"
         });
 
+        // Emblem
+        const emblem = document.createElement("div");
+        const emblem_img = this.getAttribute("icon");
+
+        Object.assign(emblem.style, {
+            position: "absolute",
+            width: "30%",
+            height: "30%",
+            right: "6%",
+            bottom: "6%",
+
+            backgroundImage: `url("${emblem_img}")`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+            opacity: "0.8",
+
+            zIndex: "2"
+        });
+
         wrapper.appendChild(back);
         wrapper.appendChild(front);
+        wrapper.appendChild(emblem);
         shadow.appendChild(wrapper);
     }
 }
